@@ -1,2 +1,2 @@
-# BD1-Supermercado-
+# BD1-Supermercado
 Project for Database 1 class - Universidad Autónoma de Honduras
