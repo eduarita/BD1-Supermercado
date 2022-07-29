@@ -1,7 +1,7 @@
 # BD1-Supermercado
 Project for Database 1 class - Universidad Autónoma de Honduras
 
-Proyecto fue realizado con Oracle SQL Developer realizando una BD de un supermercado
+El proyecto fue realizado con Oracle SQL Developer realizando una BD de un supermercado
 
 <h2>Docente/Teacher 👨‍💻</h2>
 <ul>
