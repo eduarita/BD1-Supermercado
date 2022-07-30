@@ -1,7 +1,7 @@
 CREATE TABLE Abastecimiento(
-    IdAbasto    varchar2(30)     NOT NULL PRIMARY KEY,
-    CodProv     varchar2(30)     NOT NULL,
-    DniEmp      varchar2(30)     NOT NULL,
+    IdAbasto    varchar2(30)    PRIMARY KEY,
+    CodProv     varchar2(30)    NOT NULL,
+    DniEmp      varchar2(30)    NOT NULL,
     Total       decimal(7,2)    NOT NULL,
     Fecha       date            NOT NULL
 );
@@ -17,13 +17,13 @@ CREATE TABLE Caja(
 );
 
 CREATE TABLE Cliente(
-    Dni         varchar2(30) NOT NULL PRIMARY KEY,
+    Dni         varchar2(30) PRIMARY KEY,
     Nombre      varchar2(30) NOT NULL,
     Apellido    varchar2(30) NOT NULL
 );
 
 CREATE TABLE Departamento(
-    NumDpto     varchar2(30) NOT NULL PRIMARY KEY,
+    NumDpto     varchar2(30) PRIMARY KEY,
     Nombre      varchar2(30) NOT NULL,
     DniGerente  varchar2(30)
 );
@@ -32,14 +32,14 @@ CREATE TABLE DetalleFactura(
     NumRegistro     varchar2(30) NOT NULL,
     IdFactura       varchar2(30) NOT NULL,
     CodProducto     varchar2(30) NOT NULL,
-    Cantidad        int         NOT NULL,
+    Cantidad        number(10)   NOT NULL,
     Subtotal        decimal(7,2) NOT NULL,
     
     CONSTRAINT PK_DetFac PRIMARY KEY (NumRegistro,IdFactura)
 );
 
 CREATE TABLE Empleado(
-    Dni         varchar2(30)  NOT NULL PRIMARY KEY,
+    Dni         varchar2(30)  PRIMARY KEY,
     Nombre      varchar2(30)  NOT NULL,
     Apellido1   varchar2(30)  NOT NULL,
     Apellido2   varchar2(30),
@@ -92,7 +92,7 @@ CREATE TABLE Proveedor (
 CREATE TABLE Suministro(
     CodProducto         varchar2(30) NOT NULL,
     CodAbastecimiento   varchar2(10) NOT NULL,
-    Stock               int         NOT NULL,
+    Stock               number(10)   NOT NULL,
     
     CONSTRAINT PK_Suministro PRIMARY KEY (CodProducto,CodAbastecimiento),
     CONSTRAINT CHK_Suministro1 CHECK (Stock > 0)
@@ -339,12 +339,7 @@ insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direcci
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('13371', 'Rmson', 'Ness', 'Moroni', to_date('24/May/1979','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '10', 16560, '5', '48528');-- Mercadologo
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('51589', 'Heber', 'Norl', 'Moroni', to_date('16/Sep/1992','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '10', 17560, '5', '48528');-- Mercadologo
 
-
-
-
 --TelefonoEmpleado
-
---QUITARLES LOS GUIONES Y LO MAS SEGURO NO ENCUENTRA EL DNI EN EMPLEADOS QUE NO SE PUDIERON GENERAR POR ERROR
 insert into TelefonoEmpleado (Dni, Telefono) values ('44451', '1766471405');
 insert into TelefonoEmpleado (Dni, Telefono) values ('01111', '1907094772');
 insert into TelefonoEmpleado (Dni, Telefono) values ('01111', '8706761940');
@@ -394,7 +389,6 @@ insert into TelefonoEmpleado (Dni, Telefono) values ('78884', '3661859569');
 insert into TelefonoEmpleado (Dni, Telefono) values ('12211', '5532701173');
 
 --Proveedor
--- OBSERVAR A FONDO PROVEEDORES
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('1', 'Hortifruti', 'Natal', 'Mosconi', 'Fuling'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('2', 'Hortifruti', 'Norman', 'Moakler', 'Ust-Isha');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('3', 'Hortifruti', 'Selby', 'Kendall', 'Oklahoma City');
