@@ -12,7 +12,7 @@ El proyecto fue realizado con Oracle SQL Developer realizando una BD de un super
 <h4>Grupo #4</h4>
 <ul>
   <li>Eduardo Josué Castro Arita - 20201000399</li>
-  <li>Karla Gabriela Navarro Raudales - 2019100313</li>
+  <li>Karla Gabriela Navarro Raudales - 20191003134</li>
   <li>Nelson Javier Guevara Ulloa - 20181031564</li>
   <li>Oscar Emanuel Espinoza Martínez - 20201003710</li>
   <li>Rossell Ricardo Ramos Galindo – 20111004060</li>
