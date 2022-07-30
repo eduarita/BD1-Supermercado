@@ -339,6 +339,13 @@ insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direcci
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('13371', 'Rmson', 'Ness', 'Moroni', to_date('24/May/1979','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '10', 16560, '5', '48528');-- Mercadologo
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('51589', 'Heber', 'Norl', 'Moroni', to_date('16/Sep/1992','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '10', 17560, '5', '48528');-- Mercadologo
 
+UPDATE Departamento SET DniGerente = '45454' WHERE NumDpto = '1';
+UPDATE Departamento SET DniGerente = '01111' WHERE NumDpto = '2';
+UPDATE Departamento SET DniGerente = '48225' WHERE NumDpto = '3';
+UPDATE Departamento SET DniGerente = '78155' WHERE NumDpto = '4';
+UPDATE Departamento SET DniGerente = '48528' WHERE NumDpto = '5';
+UPDATE Departamento SET DniGerente = '12884' WHERE NumDpto = '6';
+
 --TelefonoEmpleado
 insert into TelefonoEmpleado (Dni, Telefono) values ('44451', '1766471405');
 insert into TelefonoEmpleado (Dni, Telefono) values ('01111', '1907094772');
