@@ -1,8 +1,3 @@
-/*
-TRUNCATE TABLE Empleado DROP STORAGE;
-
-SELECT * FROM AREA; 
-*/
 CREATE TABLE Abastecimiento(
     IdAbasto    varchar2(30)     NOT NULL PRIMARY KEY,
     CodProv     varchar2(30)     NOT NULL,
@@ -405,13 +400,13 @@ insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado,
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('3', 'Hortifruti', 'Selby', 'Kendall', 'Oklahoma City');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('4', 'Hortifruti', 'Nick', 'Londors', 'Lam Sonthi');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('5', 'Hortifruti', 'Lesya', 'Ladbury', 'Banjar Susut Kaja');
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('6', 'Hortifruti', 'Elyse', 'Brundale', 'Skoútari');
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('6', 'Hortifruti', 'Elyse', 'Brundale', 'Skoï¿½tari');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('7', 'Hortifruti', 'Felisha', 'Napoleon', 'Zapala');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('8', 'Cerveceria Hondurena', 'Betta', 'Robrose', 'Allanridge');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('9', 'Sula', 'Brandy', 'Penkethman', 'Vera Cruz');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('10','Sula', 'Xenia', 'Callan', 'Arroyo Naranjo');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('11', 'Sula', 'Lamar', 'Glentz', 'Hamilton');
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('12', 'Sula', 'Emmet', 'MacUchadair', 'Järna'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('12', 'Sula', 'Emmet', 'MacUchadair', 'Jï¿½rna'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('13', 'Tang', 'Maible', 'Mattke', 'Bratislava'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('14', 'Leyde', 'Esme', 'McCarlich', 'Santiago de Cao'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('15', 'Leyde', 'Willey', 'Jewise', 'Kabakovo'); 
@@ -421,15 +416,15 @@ insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado,
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('19', 'Scott', 'Ambur', 'Spittal', 'Saint-Louis du Nord');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('20', 'Tang', 'Bambi', 'Gavin', 'Libertad');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('21', 'Supermax', 'Tynan', 'Galliver', 'Loimaan Kunta'); 
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('22', 'Supermax', 'Alon', 'German', 'Diébougou'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('22', 'Supermax', 'Alon', 'German', 'Diï¿½bougou'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('23', 'Supermax', 'Gottfried', 'Hourahan', 'Sydney');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('24', 'Suli', 'Zebulen', 'Gribbon', 'Sepulu'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('25', 'Suli', 'Engelbert', 'Shadfourth', 'Las Palmas'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('26', 'Suli', 'Ferdie', 'Curling', 'Tuwiri Wetan'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('27', 'Suli', 'Stavros', 'Sorel', 'Loay'); 
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('28', 'Toledo', 'Hetty', 'Catteroll', 'Cosmópolis'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('28', 'Toledo', 'Hetty', 'Catteroll', 'Cosmï¿½polis'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('29', 'Toledo', 'Darbie', 'Marzelli', 'Ciparay'); 
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('30', 'Tang', 'Melvyn', 'Barnsley', 'Erétria'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('30', 'Tang', 'Melvyn', 'Barnsley', 'Erï¿½tria'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('31', 'Fud', 'Amy', 'Pentycross', 'Inuvik'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('32', 'Fud', 'Dody', 'Laying', 'La Gloria'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('33', 'Dove', 'Pearla', 'Liffey', 'Shubenka'); 
@@ -455,7 +450,7 @@ insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado,
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('53', 'Yummies', 'Dorie', 'Hegerty', 'Lagoa de Albufeira');
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('54', 'Yummies', 'Elene', 'Dilke', 'Longtou'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('55', 'Hortifutri', 'Gabriele', 'Titman', 'Kezilei'); 
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('56', 'Hortifruti', 'Karel', 'Eckert', 'Limeil-Brévannes'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('56', 'Hortifruti', 'Karel', 'Eckert', 'Limeil-Brï¿½vannes'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('57', 'Yummies', 'Wilhelmine', 'Pruce', 'Xikou'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('58', 'Nabisco', 'Bili', 'Edelheit', 'Lanshan'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('59', 'Nabisco', 'Lorelle', 'Bywaters', 'Yeniugou'); 
@@ -475,7 +470,7 @@ insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado,
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('73', 'Hortifruti', 'Nancee', 'Hardiker', 'Steinkjer'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('74', 'Pepsi', 'Clayborn', 'Bagnell', 'Qiaozhen'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('75', 'Coca-Cola', 'Arnoldo', 'De Francesco', 'Taloko'); 
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('76', 'Coca-Cola', 'Rafaelita', 'Hedling', 'Göteborg'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('76', 'Coca-Cola', 'Rafaelita', 'Hedling', 'Gï¿½teborg'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('77', 'Tang', 'Shalne', 'Jacmar', 'Adamantina'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('78', 'Tang', 'Blakeley', 'Feaver', 'Fenyan');  
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('79', 'Tang', 'Vally', 'Walkley', 'Longshan');
@@ -491,7 +486,7 @@ insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado,
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('89', 'Nivea', 'Cori', 'Kenan', 'Anning'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('90', 'Nivea', 'Chance', 'Brogden', 'Huskvarna'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('91', 'Nivea', 'Merry', 'Philippon', 'Nangahale');
-insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('92', 'Nivea', 'Vaclav', 'Boch', 'Horní Cerekev'); 
+insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('92', 'Nivea', 'Vaclav', 'Boch', 'Hornï¿½ Cerekev'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('93', 'Colgate', 'Ashlan', 'Salla', 'Tabaquite'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('94', 'Colgate', 'Darlleen', 'MacCosto', 'Kuantan'); 
 insert into Proveedor (CodProv, NombreMarca, NombreEncargado, ApellidoEncargado, Direccion) values ('95', 'Dove', 'Galven', 'Hexum', 'At Tibn?'); 
@@ -626,7 +621,7 @@ INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES (
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('428630102117','Hortifruti','Rabano Rojo paquete',10.90,'Verduras');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('2571530000009','Hortifruti','Cebolla Morada 1Lb',26.50,'Verduras');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('0000000044332','Hortifruti','Pina',38.50,'Frutas');
-INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('0000000071789','Hortifruti','Limón Persa ud',3.50,'Frutas');
+INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('0000000071789','Hortifruti','Limï¿½n Persa ud',3.50,'Frutas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('2533830000004','Hortifruti','Mandarina Clementina 1Lb',49.00,'Frutas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7421000811367','Sula','Leche Entera', 36.70,'Lacteos y Derivados');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7421000840817','Sula','Leche Deslactosada', 38.10,'Lacteos y Derivados');
@@ -682,11 +677,11 @@ INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES (
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('0784562010652','Coca-Cola','Coca Cola 500ml',13.40,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864536','Tang','Bebida en Polvo Manzana',5.70,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864680','Tang','Bebida en Polvo Uva',5.70,'Jugos y Bebidas');
-INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864734','Tang','Bebida en Polvo Guayaba-Piña',5.70,'Jugos y Bebidas');
+INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864734','Tang','Bebida en Polvo Guayaba-Piï¿½a',5.70,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864116','Tang','Bebida en Polvo Naranaja',5.70,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210863263','Tang','Bebida en Polvo Fresa',5.70,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210864154','Tang','Bebida en Polvo Limon',5.70,'Jugos y Bebidas');
-INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210863492','Tang','Bebida en Polvo Piña',5.70,'Jugos y Bebidas');
+INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7622210863492','Tang','Bebida en Polvo Piï¿½a',5.70,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7421601102109','Pepsi','Pepsi 3Lts',52.80,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7421601100013','Pepsi','Pepsi 2Lts',32.80,'Jugos y Bebidas');
 INSERT INTO Producto (CodBarra , Marca, Descripcion, Precio, Ubicacion) VALUES ('7421601100037','Pepsi','Pepsi 1.5 Lts',26.60,'Jugos y Bebidas');
@@ -1138,8 +1133,6 @@ INSERT INTO Suministro (CodProducto, CodAbastecimiento, Stock) values ('74210009
 INSERT INTO Suministro (CodProducto, CodAbastecimiento, Stock) values ('7421000910022', '100', '280'); 
 INSERT INTO Suministro (CodProducto, CodAbastecimiento, Stock) values ('7501072206725', '101', '50');
 
-/*
-
 --Selects
 SELECT * FROM EMPLEADO;
 SELECT * FROM TelefonoEmpleado;
@@ -1155,44 +1148,3 @@ SELECT * FROM Caja;
 SELECT * FROM Factura;
 SELECT * FROM DetalleFactura;
 SELECT * FROM Suministro;
---
-
-DROP TABLE Abastecimiento;
-DROP TABLE Area;
-DROP TABLE Caja;
-DROP TABLE Cliente;
-DROP TABLE Departamento;
-DROP TABLE DetalleFactura;
-DROP TABLE Empleado;
-DROP TABLE Factura;
-DROP TABLE Producto;
-DROP TABLE Proveedor;
-DROP TABLE Suministro;
-DROP TABLE TelefonoEmpleado;
-DROP TABLE TelefonoProveedor;
-DROP TABLE TipoEmpleado;
-
-ALTER TABLE Producto DROP CONSTRAINT FK_Prod_Area;
-ALTER TABLE Abastecimiento DROP CONSTRAINT FK_Abasto_Prov;
-ALTER TABLE Abastecimiento DROP CONSTRAINT FK_Abasto_Emp;
-ALTER TABLE Caja DROP CONSTRAINT FK_Caja_Emp;
-ALTER TABLE Departamento DROP CONSTRAINT FK_Dept_Emp;
-ALTER TABLE DetalleFactura DROP CONSTRAINT FK_DetFact_Fact;
-ALTER TABLE Empleado DROP CONSTRAINT FK_Emp_Tipo;
-ALTER TABLE Empleado DROP CONSTRAINT FK_Emp_Dept;
-ALTER TABLE Factura DROP CONSTRAINT FK_Fac_Cli;
-ALTER TABLE Factura DROP CONSTRAINT FK_Fac_Caja;
-ALTER TABLE Producto DROP CONSTRAINT FK_Prod_Area;
-ALTER TABLE Suministro DROP CONSTRAINT FK_Sum_Prod;
-ALTER TABLE Suministro DROP CONSTRAINT FK_Sum_Abasto;
-ALTER TABLE TelefonoEmpleado DROP CONSTRAINT FK_TelEmp_Emp;
-ALTER TABLE TelefonoProveedor DROP CONSTRAINT FK_TelProv_Prov;
-
--- Date format
-SELECT
-  value
-FROM
-  V$NLS_PARAMETERS
-WHERE
-  parameter = 'NLS_DATE_FORMAT';
-*/
