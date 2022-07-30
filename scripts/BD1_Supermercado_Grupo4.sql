@@ -326,12 +326,12 @@ insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direcci
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('32682', 'diego', 'segovia', 'mendez', to_date('29/Mar/1998','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '7', 4560, '1', '45454'); --Reclutador
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('52252', 'lucas', 'Medina', 'Moroni', to_date('27/Jul/1979','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '7', 12560, '1', '45454'); --Reclutador
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('42422', 'mateo', 'Videa', 'Ramos', to_date('22/Oct/1982','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '7', 45545, '1', '45454'); --Reclutador
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('51251', 'Juanita', 'Rosa', 'Mola', to_date('7/May/1997','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111'); -- COMPRADOR
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('42016', 'Yolibeth', 'Walker', 'Mendoza', to_date('17/Sep/1972','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111');-- COMPRADOR
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('1144', 'Andreina', 'Sky', 'medina', to_date('29/Nov/1987','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111');-- COMPRADOR
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('02433', 'Pedro', 'Juarez', 'Zenon', to_date('29/Nov/1971','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '8', 12560, '2', '01111');-- COMPRADOR
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('07891', 'Alexa', 'Niquel', 'Medina', to_date('13/Nov/1991','DD-MON-RR'),'F', 'Tegucigalpa', 'Diurna', '8', 12000, '2', '01111');-- COMPRADOR
-insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('14411', 'Marto', 'Adonis', 'Ramirez', to_date('7/Nov/1990','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '8', 12560, '2', '01111');-- COMPRADOR
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('51251', 'Juanita', 'Rosa', 'Mola', to_date('7/May/1997','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111'); -- COMPRADOR 
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('42016', 'Yolibeth', 'Walker', 'Mendoza', to_date('17/Sep/1972','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111');-- COMPRADOR 
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('1144', 'Andreina', 'Sky', 'medina', to_date('29/Nov/1987','DD-MON-RR'),'F', 'Tegucigalpa', 'Nocturna', '8', 12560, '2', '01111');-- COMPRADOR 
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('02433', 'Pedro', 'Juarez', 'Zenon', to_date('29/Nov/1971','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '8', 12560, '2', '01111');-- COMPRADOR 
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('07891', 'Alexa', 'Niquel', 'Medina', to_date('13/Nov/1991','DD-MON-RR'),'F', 'Tegucigalpa', 'Diurna', '8', 12000, '2', '01111');-- COMPRADOR 
+insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('14411', 'Marto', 'Adonis', 'Ramirez', to_date('7/Nov/1990','DD-MON-RR'),'M', 'Tegucigalpa', 'Diurna', '8', 12560, '2', '01111');-- COMPRADOR 
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('04541', 'Jeremias', 'Ledesma', 'Castillo', to_date('14/Feb/1975','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '9', 12570, '6', '12884'); -- CONTADOR
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('75221', 'Fernanda', 'Lopez', 'Obrador', to_date('23/Nov/1975','DD-MON-RR'),'F', 'SPS', 'Diurna', '9', 12580, '6', '12884');-- CONTADOR
 insert into Empleado( Dni , Nombre, Apellido1, Apellido2, FechaNac,Sexo, Direccion, Jornada,TipoEmpleado,Sueldo,Dpto,SuperDni) values ('07821', 'Pablo', 'sion', 'blandoi', to_date('14/Oct/1972','DD-MON-RR'),'M', 'Tegucigalpa', 'Nocturna', '9', 12680, '6', '12884');-- CONTADOR
@@ -928,107 +928,107 @@ insert into DetalleFactura (IdFactura, NumRegistro, CodProducto, Cantidad, SubTo
 insert into DetalleFactura (IdFactura, NumRegistro, CodProducto, Cantidad, SubTotal) values ('64942-1287','100','0715126400022', 6,99);
 
 -- Abastecimiento
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('1', '17', '013333', 2824, to_date('07-01-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('2', '1', '013333',  925, to_date('13-01-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('3', '8', '013333', 1617, to_date('30-01-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('4', '9', '013333', 4037, to_date('10-02-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('5', '18', '013333', 20475, to_date('12-02-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('6', '100', '52121', 20363, to_date('23-02-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('1', '17', '51251', 2824, to_date('07-01-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('2', '1', '51251',  925, to_date('13-01-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('3', '8', '51251', 1617, to_date('30-01-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('4', '9', '1144', 4037, to_date('10-02-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('5', '18', '51251', 20475, to_date('12-02-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('6', '100', '51251', 20363, to_date('23-02-2021','DD-MM-RRRR'));
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('7', '77', '1144', 855, to_date('27-02-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('8', '80', '1144', 12672, to_date('06-03-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('8', '80', '51251', 12672, to_date('06-03-2021','DD-MM-RRRR'));
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('9', '85', '52121', 17236, to_date('07-03-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('10', '86', '1144', 19656, to_date('10-03-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('11', '96', '1144', 49500, to_date('28-03-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('12', '91', '52121', 31800, to_date('01-04-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('13', '98', '1144', 966, to_date('12-04-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('14', '97', '52121', 3040, to_date('27-04-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('15', '2', '1144', 498, to_date('05-05-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('16', '3', '013333', 800, to_date('15-05-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('17', '14', '1144', 11418, to_date('21-05-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('18', '93', '1144', 11000, to_date('30-05-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('19', '95', '1144', 85000, to_date('07-06-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('20', '79', '013333', 2394, to_date('17-06-2021','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('21', '13', '013333', 456, to_date('27-06-2021','DD-MM-RRRR'));            
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('10', '86', '51251', 19656, to_date('10-03-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('11', '96', '42016', 49500, to_date('28-03-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('12', '91', '07891', 31800, to_date('01-04-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('13', '98', '42016', 966, to_date('12-04-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('14', '97', '42016', 3040, to_date('27-04-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('15', '2', '14411', 498, to_date('05-05-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('16', '3', '42016', 800, to_date('15-05-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('17', '14', '42016', 11418, to_date('21-05-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('18', '93', '14411', 11000, to_date('30-05-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('19', '95', '42016', 85000, to_date('07-06-2021','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('20', '79', '42016', 2394, to_date('17-06-2021','DD-MM-RRRR')); --
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('21', '13', '1144', 456, to_date('27-06-2021','DD-MM-RRRR'));            
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('22', '20', '1144', 171, to_date('27-06-2021','DD-MM-RRRR'));            
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('23', '30', '52121', 399, to_date('27-06-2021','DD-MM-RRRR'));            
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('23', '30', '1144', 399, to_date('27-06-2021','DD-MM-RRRR'));            
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('24', '83', '1144', 2493, to_date('27-06-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('25', '33', '52121', 11624, to_date('27-06-2021','DD-MM-RRRR'));            
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('26', '94', '013333', 9000, to_date('27-06-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('25', '33', '07891', 11624, to_date('27-06-2021','DD-MM-RRRR'));            
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('26', '94', '1144', 9000, to_date('27-06-2021','DD-MM-RRRR')); 
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('27', '40', '1144', 10565, to_date('27-06-2021','DD-MM-RRRR')); 
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('28', '5', '1144', 1740, to_date('27-06-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('29', '6', '52121', 760, to_date('27-06-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('30', '7', '17871', 1595, to_date('27-06-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('31', '4', '17871', 1840, to_date('04-07-2021','DD-MM-RRRR'));            
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('32', '99', '52121', 1512, to_date('10-07-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('33', '101', '17871', 13905, to_date('20-07-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('34', '37', '17871', 29360, to_date('02-08-2021','DD-MM-RRRR'));            
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('35', '92', '17871', 49000, to_date('12-08-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('36', '90', '17871', 47670, to_date('20-08-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('37', '89', '17871', 15000, to_date('26-08-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('38', '88', '17871', 5850, to_date('03-09-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('39', '87', '013333', 5280, to_date('17-09-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('40', '81', '013333', 4592, to_date('23-09-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('41', '82', '17871', 3120, to_date('30-09-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('42', '74', '17871', 910, to_date('05-10-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('43', '84', '17871', 15092, to_date('15-10-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('44', '39', '17871', 4384, to_date('27-10-2021','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('45', '46', '17871', 1881, to_date('10-11-2021','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('46', '78', '013333', 684, to_date('11-11-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('47', '47', '17871', 3000, to_date('23-11-2021','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('48', '15', '17871', 4500, to_date('29-11-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('49', '24', '17871', 1980, to_date('05-12-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('50', '25', '17871', 3500, to_date('17-12-2021','DD-MM-RRRR')); 
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('51', '51', '09911', 531, to_date('30-12-2021','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('52', '52', '09911', 1580.5, to_date('02-01-2022','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('53', '55', '17871', 2695, to_date('10-01-2022','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('54', '56', '09911', 3180, to_date('31-01-2022','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('55', '61', '09911', 2464, to_date('07-02-2022','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('56', '75', '17871', 1206, to_date('20-02-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('57', '62', '17871', 12050, to_date('27-02-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('58', '69', '09911', 18480, to_date('01-03-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('59', '63', '17871', 5600, to_date('11-03-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('60', '65', '013333', 6300, to_date('29-03-2022','DD-MM-RRRR'));       
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('61', '64', '17871', 11070, to_date('12-04-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('62', '67', '1144', 8208, to_date('17-04-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('63', '66', '013333', 31960, to_date('30-04-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('64', '70', '52121', 7750, to_date('04-05-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('65', '71', '09911', 55230, to_date('12-05-2022','DD-MM-RRRR'));             
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('66', '72', '52121', 22440, to_date('25-05-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('67', '76', '52121', 14703, to_date('10-06-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('68', '68', '09911', 3555, to_date('20-06-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('69', '59', '013333', 3920, to_date('30-06-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('70', '58', '1144', 9975, to_date('01-07-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('71', '73', '09911', 11270, to_date('07-07-2022','DD-MM-RRRR'));              
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('72', '12', '52121', 15400, to_date('21-07-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('73', '10', '013333', 3429, to_date('28-07-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('74', '11', '013333', 11904, to_date('02-08-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('75', '16', '013333', 1535, to_date('12-08-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('76', '21', '09911', 5850, to_date('31-08-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('77', '27', '09911', 2750, to_date('07-09-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('78', '26', '1144', 1700, to_date('13-09-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('79', '54', '09911', 3525, to_date('22-09-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('29', '6', '1144', 760, to_date('27-06-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('30', '7', '1144', 1595, to_date('27-06-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('31', '4', '02433', 1840, to_date('04-07-2021','DD-MM-RRRR'));            
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('32', '99', '02433', 1512, to_date('10-07-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('33', '101', '02433', 13905, to_date('20-07-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('34', '37', '02433', 29360, to_date('02-08-2021','DD-MM-RRRR'));            
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('35', '92', '14411', 49000, to_date('12-08-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('36', '90', '02433', 47670, to_date('20-08-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('37', '89', '14411', 15000, to_date('26-08-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('38', '88', '02433', 5850, to_date('03-09-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('39', '87', '02433', 5280, to_date('17-09-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('40', '81', '02433', 4592, to_date('23-09-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('41', '82', '14411', 3120, to_date('30-09-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('42', '74', '14411', 910, to_date('05-10-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('43', '84', '07891', 15092, to_date('15-10-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('44', '39', '14411', 4384, to_date('27-10-2021','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('45', '46', '07891', 1881, to_date('10-11-2021','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('46', '78', '14411', 684, to_date('11-11-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('47', '47', '07891', 3000, to_date('23-11-2021','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('48', '15', '14411', 4500, to_date('29-11-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('49', '24', '14411', 1980, to_date('05-12-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('50', '25', '14411', 3500, to_date('17-12-2021','DD-MM-RRRR')); 
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('51', '51', '14411', 531, to_date('30-12-2021','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('52', '52', '14411', 1580.5, to_date('02-01-2022','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('53', '55', '02433', 2695, to_date('10-01-2022','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('54', '56', '42016', 3180, to_date('31-01-2022','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('55', '61', '1144', 2464, to_date('07-02-2022','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('56', '75', '42016', 1206, to_date('20-02-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('57', '62', '07891', 12050, to_date('27-02-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('58', '69', '02433', 18480, to_date('01-03-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('59', '63', '42016', 5600, to_date('11-03-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('60', '65', '42016', 6300, to_date('29-03-2022','DD-MM-RRRR'));       
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('61', '64', '02433', 11070, to_date('12-04-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('62', '67', '42016', 8208, to_date('17-04-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('63', '66', '51251', 31960, to_date('30-04-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('64', '70', '02433', 7750, to_date('04-05-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('65', '71', '1144', 55230, to_date('12-05-2022','DD-MM-RRRR'));             
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('66', '72', '02433', 22440, to_date('25-05-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('67', '76', '42016', 14703, to_date('10-06-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('68', '68', '02433', 3555, to_date('20-06-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('69', '59', '07891', 3920, to_date('30-06-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('70', '58', '51251', 9975, to_date('01-07-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('71', '73', '42016', 11270, to_date('07-07-2022','DD-MM-RRRR'));              
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('72', '12', '02433', 15400, to_date('21-07-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('73', '10', '42016', 3429, to_date('28-07-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('74', '11', '07891', 11904, to_date('02-08-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('75', '16', '42016', 1535, to_date('12-08-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('76', '21', '51251', 5850, to_date('31-08-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('77', '27', '02433', 2750, to_date('07-09-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('78', '26', '42016', 1700, to_date('13-09-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('79', '54', '42016', 3525, to_date('22-09-2022','DD-MM-RRRR'));
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('80', '19', '1144', 9874.5, to_date('29-09-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('81', '88', '09911', 805, to_date('06-10-2022','DD-MM-RRRR'));       
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('82', '22', '52121', 21330, to_date('16-10-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('83', '28', '1144', 1020, to_date('27-10-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('84', '53', '013333', 14750, to_date('30-10-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('85', '50', '013333', 11730, to_date('02-11-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('86', '57', '52121', 19276, to_date('14-11-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('87', '38', '09911', 11050, to_date('24-11-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('81', '88', '1144', 805, to_date('06-10-2022','DD-MM-RRRR'));       
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('82', '22', '1144', 21330, to_date('16-10-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('83', '28', '02433', 1020, to_date('27-10-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('84', '53', '1144', 14750, to_date('30-10-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('85', '50', '42016', 11730, to_date('02-11-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('86', '57', '14411', 19276, to_date('14-11-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('87', '38', '02433', 11050, to_date('24-11-2022','DD-MM-RRRR'));
 INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('88', '48', '1144', 15810, to_date('27-11-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('89', '60', '09911', 7020, to_date('29-11-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('90', '49', '52121', 1165, to_date('30-11-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('91', '44', '09911', 41790, to_date('01-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('92', '29', '52121', 23430, to_date('07-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('93', '31', '09911', 3600, to_date('13-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('94', '41', '52121', 20088, to_date('18-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('95', '32', '09911', 34160, to_date('20-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('96', '45', '09911', 13500, to_date('22-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('97', '42', '52121', 28815, to_date('24-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('98', '34', '09911', 5040, to_date('26-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('99', '35', '52121', 10200, to_date('27-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('100', '36', '09911', 7700, to_date('28-12-2022','DD-MM-RRRR'));
-INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('101', '43', '52121', 20750, to_date('30-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('89', '60', '07891', 7020, to_date('29-11-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('90', '49', '02433', 1165, to_date('30-11-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('91', '44', '42016', 41790, to_date('01-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('92', '29', '42016', 23430, to_date('07-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('93', '31', '51251', 3600, to_date('13-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('94', '41', '51251', 20088, to_date('18-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('95', '32', '1144', 34160, to_date('20-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('96', '45', '51251', 13500, to_date('22-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('97', '42', '14411', 28815, to_date('24-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('98', '34', '51251', 5040, to_date('26-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('99', '35', '14411', 10200, to_date('27-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('100', '36', '14411', 7700, to_date('28-12-2022','DD-MM-RRRR'));
+INSERT INTO Abastecimiento (IdAbasto, CodProv, DniEmp, Total, Fecha) values ('101', '43', '42016', 20750, to_date('30-12-2022','DD-MM-RRRR'));
 
 
 -- Suministro
